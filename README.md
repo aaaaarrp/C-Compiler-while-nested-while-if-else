@@ -9,7 +9,10 @@ This includes SIX phases of a compiler:</br>
 5) Machine Independent Code Optimization - Constant Folding, Common Sub-Expression Elimination, Dead Code Elimination<br>
 6) Assembly Code Generation - Final Target Code<br>
 
-To Run the programs run compile.sh file:</br>
+To Run the compiler, clone the github repo -
+> git clone https://github.com/aaaaarrp/C-Compiler-while-nested-while-if-else.git
+
+Then run the script `compile.sh` -
 > ./compile.sh 
 
 Few informations about the files -
@@ -18,5 +21,4 @@ Few informations about the files -
 - y.tab.h and y.output (debugger for parser).
 - GenInput.txt - Parser generated Quadruples INPUT to generate Assembly Language.
 - OpInput.txt - Three address code INPUT for Code optimization.
-- Python scripts are used for Assembly code generation from quadruples.
-- Extra 1 python script is given to show separate Code Optimization.
+- Python scripts are used for Code optimization and Assembly code generation from quadruples.
